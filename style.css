@@ -1,0 +1,317 @@
+/*---------------------------------Background/s----------------------------------*/
+/*-------------------------------------------------------------------------------*/
+body {
+    background-image: url("/images/javier-martinez-hUD0PUczwJQ-unsplash.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+} 
+@media (max-width: 576px) {
+    body {
+        background-image: url("/images/javier-martinez-hUD0PUczwJQ-unsplash.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-position: center, center;
+        height: 100vh;
+        width: 100vw;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        position: relative;
+    } 
+}
+
+/*--------------------------------navbar header-----------------------------------*/
+/*------------------------------------syles---------------------------------------*/
+/*--nav title--*/
+.nav-header {
+    font-size: 25px;
+}
+@media (max-width: 576px) {
+    .nav-header {
+        font-size: 18px;
+    }
+}
+@media (max-width: 300px) {
+    .nav-header {
+        font-size: 14px;
+    }
+}
+/*-- + on title--*/
+.plus {
+    font-size: 30px;
+}
+@media (max-width :576px) {
+    .plus {
+        font-size: 23px;
+    }
+} 
+@media (max-width: 300px) {
+    .plus {
+        font-size: 18px;
+    }
+}
+/*--nav logo--*/
+svg {
+    margin-bottom: 10px;
+    margin-right: 4px;
+}
+@media(max-width: 576px) {
+    svg {
+        height: 24px;
+        width: 24px;
+        margin-bottom: 4px;
+        margin-right: 4px;
+    }
+}
+@media (max-width: 300px) {
+    svg {
+        height: 20px;
+        width: 20px;
+        margin-right: 4px;
+        margin-bottom: 3px;
+    }
+}
+
+/*--navbar items space--*/
+.nav-item {
+    margin-left: 22px;
+}
+/*--dropdown menu--*/
+@media (max-width: 768px) {
+    .nav-item {
+        margin: 0;
+    }
+}
+
+
+/*--center navbar toggle menu--*/
+.collapse, .navbar-collapse {
+    text-align: center;
+}
+
+
+/*------------------------------------main section/s-------------------------------------*/
+/*--------------------------------syles + fonts + icons----------------------------------*/
+/*--intro display heading/s--*/
+.main-h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 0px 0px;
+}
+@media (max-width: 576px) {
+    .main-h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-shadow: 1px 0px 0px;
+        font-size: 34px;
+    }
+}
+@media (max-width: 576px) {
+    .main-h1-span {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-shadow: 1px 0px 0px;
+        font-size: 38px;
+    }
+}
+@media (max-width: 768px) {
+    .lead-p-font {
+        font-size: 18px;
+        font-weight: 400;
+        color: rgb(0, 0, 0);
+    }
+}
+@media (max-width: 576px) {
+    .list-link {
+        font-size: 18px;
+    }
+}
+
+/*--Main Logo's col height--*/
+.logo-section {
+    height: 50%;
+} 
+
+/*--logo size--*/
+.ea-logo {
+    height: 40px;
+    width: 44px;
+    margin: 3px 10px 0 25px;
+}
+@media (max-width: 576px) {
+    .ea-logo {
+        height: 32px;
+        width: 35px;
+        margin-left: -1%;
+    }
+}
+
+.ubi-logo {
+    height: 38px;
+    width: 45px;
+}
+@media (max-width: 576px) {
+    .ubi-logo {
+        height: 30px;
+        width: 40px;
+        margin-left: -20px;
+    }
+}
+.blizzard-logo {
+    height: 40px;
+    width: 60px;
+    margin-right: 10px;
+}
+@media (max-width: 576px) {
+    .blizzard-logo {
+        height: 28px;
+        width: 55px;
+        margin-left: -35px;
+    }
+}
+
+.beth-logo {
+    height: 40px;
+    width: 70px;
+  
+}
+@media (max-width: 576px) {
+    .beth-logo {
+        height: 28px;
+        width: 56px;
+        margin-left: -20px;
+    }
+}
+
+/*--xbox game studios column and logo--*/
+.xbox-studio-row {
+    width: 50%;
+    position: fixed;
+    top: 150px;
+    right: 60px;
+}
+.xbox-studio-column {
+    width: 180px;
+}
+/*--logo size--*/
+.xbox-studio {
+    height: 130px;
+    width: 190px;
+}
+
+
+/*---------------------------------Footer logos--------------------------------*/
+/*-----------------------------------------------------------------------------*/
+.seriesx-logo {
+    height: 60px;
+    width: 155px;
+    margin-bottom: -3px;
+    margin-left: -45px;
+}
+.windows-logo {
+    height: 12px;
+    width: 20px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+@media (max-width: 992px) {
+    .windows-logo {
+        height: 10px;
+        width: 18px;
+        margin-right: 5px;
+        margin-bottom: 2.5px;
+    }
+}
+@media (max-width: 576px) {
+    .windows-logo {
+        height: 8px;
+        width: 16px;
+        margin-bottom: 3px;
+    }
+}
+
+
+/*----------------------------more Media query's----------------------------/*
+/*--------------------------------------------------------------------------/*
+/*--Form width--*/
+@media(min-width: 992px) {
+    .gamertag-input {
+        width: 30%;
+    }
+}
+@media(max-width: 992px) {
+    .gamertag-input, .form-end {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media (max-width: 992px) {
+    .submit-button {
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
+
+/*-----main logos col height------*/
+@media(min-width: 768px) {
+    .logo-section {
+        height: 20%;
+    }
+}
+
+/*-------Upgrade Now Icon-------*/
+.seriesx-icon {
+    height: 60px;
+    width: 100px;
+}
+@media (max-width: 576px) {
+    .seriesx-icon {
+        height: 40px;
+        width: 80px;
+    }
+}
+
+/*--windows footer not fixed for mobile--*/
+@media(max-width: 992px) {
+    .windows-footer {
+        position: absolute;
+        bottom: 0.3%;
+        right: 1%;
+        font-size: 10px;
+    }
+}
+/*--footer at bottom for scroll devices--*/
+@media (max-height: 916px) {
+    .windows-footer {
+        position: sticky;
+        bottom: 0.3%;
+        right: 1%;
+    }
+}
+
+/*--small screen cancel padding+margin--*/
+@media(max-width: 576px) {
+    .lead, .display-1, .microsoft-footer {
+        padding: 0px;
+    }
+}
+@media(max-width: 576px) {
+    .logo-section {
+        padding: 0px;
+    }
+}
+
+/*--cancel br--*/
+@media (max-width: 576px) {
+    br {
+        display: none;
+    }
+}
+
+
