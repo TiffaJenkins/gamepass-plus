@@ -1,7 +1,7 @@
 /*---------------------------------Background/s----------------------------------*/
 /*-------------------------------------------------------------------------------*/
 body {
-    background-image: url("/images/javier-martinez-hUD0PUczwJQ-unsplash.jpg");
+    background-image: url("images/javier-martinez-hUD0PUczwJQ-unsplash.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -13,7 +13,7 @@ body {
 } 
 @media (max-width: 576px) {
     body {
-        background-image: url("/images/javier-martinez-hUD0PUczwJQ-unsplash.jpg");
+        background-image: url("images/javier-martinez-hUD0PUczwJQ-unsplash.jpg");
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
