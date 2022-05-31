@@ -108,14 +108,14 @@ svg {
     .main-h1 {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-shadow: 1px 0px 0px;
-        font-size: 34px;
+        font-size: 38px;
     }
 }
 @media (max-width: 576px) {
     .main-h1-span {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-shadow: 1px 0px 0px;
-        font-size: 38px;
+        font-size: 42px;
     }
 }
 @media (max-width: 768px) {
